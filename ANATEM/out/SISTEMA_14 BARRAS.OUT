@@ -1,0 +1,288 @@
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ *** Caso ANAREDE  1 restabelecido
+ Sistema 14 Barras - Caso Base                                                   
+
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ LISTAGEM DOS CASOS ARMAZENADOS DE FLUXO DE POTÊNCIA - ANAREDE
+ ARQUIVO HISTORICO: ..\ANAREDE\SISTEMA_14BARRAS.SAV
+ X----X---------------------------------------------------------------------X
+  CASO                      INFORMAÇÕES DO CASO GRAVADO
+ X----X---------------------------------------------------------------------X
+
+     1 DATA: 26/11/2020 / HORA: 17:58:29   / VERSAO DO PROGRAMA: V10.02.03
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DE MODELO 1 DE GERADOR - CLASSICO
+
+ X----X-----X-----X-----X-----X-----X--X-X
+  MOD   L'd    Ra    H     D    MVA  Fr C
+ X----X-----X-----X-----X-----X-----X--X-X
+
+  0101                               60   FONTE IDEAL
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DE MODELO 2 DE GERADOR - POLOS SALIENTES
+
+ X----X----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-X
+   MOD  SAT   Ld   L'd   L"d    Ll   T'do  T"do   Ra    H    MVA  C
+              Lq                           T"qo         D    Freq
+ X----X----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-X
+
+  0201    1 100.3  35.7  28.3  19.8  7.28  .050       2.474   50. N
+             59.9                          .100               60
+  0202    2  94.6  31.0  27.4  20.2  8.13  .048       3.588   72. N
+             62.1                          .140               60
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DO MODELO 1 DE REGULADOR DE TENSÃO
+
+ X----X----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-X-X
+   MOD  SAT   Ka    Ke    Kf    Tm    Ta    Te    Tf   Lmin  Lmax L S
+ X----X----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-X-X
+
+  0101   31  300.  3.00  0.30   0.0   0.0  6.00  3.00  -1.1  8.05 E D
+  0102   32  408.  1.00 .1046   0.0   0.0  1.00  3.17  -1.1  8.05 E I
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DO MODELO 12 DE REGULADOR DE TENSÃO
+
+ X----X----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-X
+   MOD  SAT   Ka    Ke    Kf    Kp    Kg    Tq   Tf2  Lmin1 Lmin2 Lmin3 L
+              Ta    Te   Tf1    Ki                    Lmax1 Lmax2 Lmax3
+ X----X----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-X
+
+  1201   33  25.0  -.05  .080    .0   1.0    .0    .0  -1.0  -4.6    .0 D
+              .20   .50   1.0   1.0                     1.0   4.6    .0
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DE CURVA DE SATURAÇÃO
+
+ X----X-X--------X--------X--------X
+   MOD T    P1       P2       P3
+ X----X-X--------X--------X--------X
+
+  0001 2    0.016    8.198      0.8
+  0002 2    0.013     7.92      0.8
+  0031 2   0.0147    1.206         
+  0032 2    0.024     1.36         
+  0033 2    0.016     1.54         
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DO MODELO 1 DE REGULADOR DE VELOCIDADE
+
+ X----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-----X
+   MOD   R     Rp    At   Qnl    Tw    Tr    Tf    Tg   Lmin  Lmax Dturb  Pbg
+                                                                     D    Pbt
+ X----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-----X-----X
+
+  0101  0.05  0.38 1.200  0.15   1.5   7.0  0.05   0.5   0.0  .984   0.5   1.0
+                                                                     1.0   1.0
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+
+ DADOS DE ASSOCIAÇÃO DE ARQUIVOS DE ENTRADA E SAÍDA
+
+ X------X------X--------------------------------------------------------------X
+   Tipo   Caso   Nome do Arquivo
+ X------X------X--------------------------------------------------------------X
+   OUT           ./OUT/SISTEMA_14 BARRAS.OUT
+   LOG           ./LOG/SISTEMA_14 BARRAS.LOG
+   PLT           ./PLT/SISTEMA_14 BARRAS.PLT
+   SAV     1     ../ANAREDE/SISTEMA_14BARRAS.SAV
+   BLT           ./SISTEMA_14BARRAS.BLT
+
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DE MÁQUINA SINCRONA
+
+ X------------------X--X-----X---X------X-------X-------X-------X-----X-----X
+       Barra         No Pg(%)  No   Maq     Exc     Vel     Est   Reat Barra
+    Num     Nome     Gr Qg(%)  Un   Mod    Mod T   Mod T   Mod T  Xvd  Contr
+ X-----X------------X--X-----X---X------X-------X-------X-------X-----X-----X
+
+     01 BARRA01--138 10  100    3    202    102     101                    1
+                         100
+
+     02 BARRA02--138 10  100    1    201    102     101                    2
+                         100
+
+     06 BARRA06---66 10  100    1    201    102     101                    6
+                         100
+
+     08 BARRA08---33 10  100    1    201    101                            9
+                         100
+
+     14 BARRA14---66 10  100    1    202   1201     101                   14
+                         100
+
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DE EVENTOS
+
+ X-------------X---------------X-----X------X--X---X----X-------X--------------X
+      Evento        Elemento             %   Gr Und  Blk  Resist     Nome 1
+  Tipo   Tempo    Tip            Num    ABS     Uni       Reatan     Nome 2   D
+                  Num   Para Nc  Extr            C        Suscep
+                                                Unf       Defas.
+ X----X--------X------X-----X--X-----X------X--X---X----X-------X------------X-X
+
+  ABCI    0.100 Cir                                              BARRA05--138 A
+                     5     6  1                                  BARRA06---66 A
+                                                                
+                                                                
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DE PLOTAGEM
+
+ X-------X----------------------X--------X-----X-----X-------------------------X
+                 Elemento         Refer    Num  Bloco       Identificação
+  Tipo  M Tip   Num   Para Nc Gr Barra Gr  Extr P
+ X-------X---X------X-----X--X--X-----X--X-----X-----X------------X------------X
+
+  DELT    Ger      1          10     1 10             BARRA01--138 BARRA01--138
+  DELT    Ger      2          10     1 10             BARRA02--138 BARRA01--138
+  DELT    Ger      6          10     1 10             BARRA06---66 BARRA01--138
+  DELT    Ger      8          10     1 10             BARRA08---33 BARRA01--138
+  DELT    Ger     14          10     1 10             BARRA14---66 BARRA01--138
+  FMAQ    Ger      1          10                      BARRA01--138             
+  FMAQ    Ger      2          10                      BARRA02--138             
+  FMAQ    Ger      6          10                      BARRA06---66             
+  FMAQ    Ger      8          10                      BARRA08---33             
+  FMAQ    Ger     14          10                      BARRA14---66             
+  VOLT    Bar      1                                  BARRA01--138             
+  VOLT    Bar      2                                  BARRA02--138             
+  VOLT    Bar      6                                  BARRA06---66             
+  VOLT    Bar      8                                  BARRA08---33             
+  VOLT    Bar     14                                  BARRA14---66             
+  VOLT    Bar      3                                  BARRA03--138             
+  VOLT    Bar      4                                  BARRA04--138             
+  VOLT    Bar      5                                  BARRA05--138             
+  VOLT    Bar      7                                  BARRA07-FICT             
+  VOLT    Bar      9                                  BARRA09---66             
+  VOLT    Bar     10                                  BARRA10---66             
+  VOLT    Bar     11                                  BARRA11---66             
+  VOLT    Bar     12                                  BARRA12---66             
+  VOLT    Bar     13                                  BARRA13---66             
+  FLXA    Cir      1     2  2                 2       BARRA01--138 BARRA02--138
+  FLXA    Cir      1     5  1                 5       BARRA01--138 BARRA05--138
+  FLXA    Cir      2     3  1                 3       BARRA02--138 BARRA03--138
+  FLXA    Cir      2     4  1                 4       BARRA02--138 BARRA04--138
+  FLXA    Cir      2     5  1                 2       BARRA02--138 BARRA05--138
+  FLXA    Cir      6    11  1                 6       BARRA06---66 BARRA11---66
+  FLXA    Cir      6    13  1                13       BARRA06---66 BARRA13---66
+  FLXA    Cir      9    10  1                10       BARRA09---66 BARRA10---66
+  FLXA    Cir      9    14  1                14       BARRA09---66 BARRA14---66
+  FLXA    Cir     12    13  1                13       BARRA12---66 BARRA13---66
+  FLXA    Cir     13    14  1                14       BARRA13---66 BARRA14---66
+  PELE    Ger      1          10                      BARRA01--138             
+  PELE    Ger      2          10                      BARRA02--138             
+  PELE    Ger      6          10                      BARRA06---66             
+  PELE    Ger      8          10                      BARRA08---33             
+  PELE    Ger     14          10                      BARRA14---66             
+  QELE    Ger      1          10                      BARRA01--138             
+  QELE    Ger      2          10                      BARRA02--138             
+  QELE    Ger      6          10                      BARRA06---66             
+  QELE    Ger      8          10                      BARRA08---33             
+  QELE    Ger     14          10                      BARRA14---66             
+  PMEC    Ger      1          10                      BARRA01--138             
+  PMEC    Ger      2          10                      BARRA02--138             
+  PMEC    Ger      6          10                      BARRA06---66             
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DE PLOTAGEM
+
+ X-------X----------------------X--------X-----X-----X-------------------------X
+                 Elemento         Refer    Num  Bloco       Identificação
+  Tipo  M Tip   Num   Para Nc Gr Barra Gr  Extr P
+ X-------X---X------X-----X--X--X-----X--X-----X-----X------------X------------X
+
+  PMEC    Ger      8          10                      BARRA08---33             
+  PMEC    Ger     14          10                      BARRA14---66             
+  PACE    Ger      1          10                      BARRA01--138             
+  PACE    Ger      2          10                      BARRA02--138             
+  PACE    Ger      6          10                      BARRA06---66             
+  PACE    Ger      8          10                      BARRA08---33             
+  PACE    Ger     14          10                      BARRA14---66             
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ DADOS DE SIMULAÇÃO
+
+ X---------X----------X----------------------------X
+    Tempo    Intervalo      Frequência pontos
+  simulação integração plotagem impressão fatoração
+ X---------X----------X--------X---------X---------X
+
+      20.0     0.001         1         1         1
+
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELÉTRICA  - ANATEM - V11.03.00
+
+ Sistema 14 Barras - Caso Base                                                   
+ Sistema 14 Barras                                                               
+
+ T=  0.1000s ABCI - Abrir circuito     5 BARRA05--138     6 BARRA06---66  1
+
+ T=  0.1000s Abriu circuito     5 BARRA05--138     6 BARRA06---66  1
+
+
+
+ Tempo de CPU da simulação: 00:00:06.13
+ Média de soluções de rede CA por passo:   2.99
+ Média de iterações modelos CA - rede CA por passo:  2.00
